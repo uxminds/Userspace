@@ -1,0 +1,115 @@
+.logo {
+    width: 8rem;
+}
+
+.coming {
+    position: relative;
+    min-height: 100%;
+}
+
+.coming .bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background-repeat: repeat;
+    opacity: .1;
+}
+
+.coming .clockdiv {
+    text-align: center;
+}
+
+.coming .clockdiv .dots {
+    position: relative;
+    color: #f0f0f0 !important;
+}
+
+.coming-main-color3 {
+    font-family: 'Sora', sans-serif !important;
+    /* background: linear-gradient(to right, #68A0FC, #8542FD);  */
+    background: linear-gradient(56deg, #45c4f9, #7d09ff 50.33%, #ff0be5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.localtitle {
+    /* background: linear-gradient(to right, #2d74e7, #8542FD);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    color: #f0f0f0;
+    font-family: 'Sora', sans-serif;
+}
+
+.stroke {
+    color: transparent;
+    -webkit-text-stroke: 2px #f0f0f0 !important;
+}
+
+.main-colorbg2 {
+    background: linear-gradient(56deg, #45c4f9, #7d09ff 50.33%, #ff0be5);
+    color: #f0f0f0;
+}
+
+.social-text img {
+    display: inline-block;
+    width: 1.4rem;
+    vertical-align: middle;
+}
+
+.social-text span {
+    vertical-align: middle;
+    background: #f0f0f0;
+    border-radius: 32px;
+    padding: 8px;
+    margin-right: 16px;
+}
+
+.sub-title {
+    font-family: 'Sora', sans-serif !important;
+}
+.sub-button{
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+    /* border-radius: 44px !important; */
+}
+.rotate-text {
+    font-family: 'Sora', sans-serif !important;
+}
+
+.coming .clockdiv .dots:after {
+    content: ':';
+    position: relative;
+    font-size: 40px;
+    color: #f0f0f0;
+    /* background: linear-gradient(to right, #68A0FC, #8542FD); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;  */
+}
+
+.coming .subscribe .form-group {
+    width: 90%;
+    margin: auto !important;
+    position: relative;
+}
+
+.coming .subscribe .form-group input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 0;
+    background: #303030;
+    color: #f0f0f0;
+}
+
+.coming .subscribe .form-group button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+    background: #55e6a5;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
